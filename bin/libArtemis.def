@@ -1,0 +1,138 @@
+EXPORTS
+    _ZN7artemis12EntitySystem10getMappersEv @1
+    _ZN7artemis12EntitySystem10initializeEv @2
+    _ZN7artemis12EntitySystem14insertToSystemEPNS_6EntityE @3
+    _ZN7artemis12EntitySystem14registerMapperEPNS_19BaseComponentMapperE @4
+    _ZN7artemis12EntitySystem16removeFromSystemEPNS_6EntityE @5
+    _ZN7artemis12EntitySystem5addedEPNS_6EntityE @6
+    _ZN7artemis12EntitySystem5checkEPNS_6EntityE @7
+    _ZN7artemis12EntitySystem7changedEPNS_6EntityE @8
+    _ZN7artemis12EntitySystem7deletedEPNS_6EntityE @9
+    _ZN7artemis12EntitySystem7enabledEPNS_6EntityE @10
+    _ZN7artemis12EntitySystem7processEv @11
+    _ZN7artemis12EntitySystem7removedEPNS_6EntityE @12
+    _ZN7artemis12EntitySystem8disabledEPNS_6EntityE @13
+    _ZN7artemis12EntitySystem8insertedEPNS_6EntityE @14
+    _ZN7artemis12EntitySystemC1EPNS_6AspectEj @15
+    _ZN7artemis12EntitySystemC2EPNS_6AspectEj @16
+    _ZN7artemis12EntitySystemD0Ev @17
+    _ZN7artemis12EntitySystemD1Ev @18
+    _ZN7artemis12EntitySystemD2Ev @19
+    _ZN7artemis13EntityManager10initializeEv @20
+    _ZN7artemis13EntityManager14IdentifierPool7checkInEi @21
+    _ZN7artemis13EntityManager14IdentifierPool8checkOutEv @22
+    _ZN7artemis13EntityManager20createEntityInstanceEv @23
+    _ZN7artemis13EntityManager5addedEPNS_6EntityE @24
+    _ZN7artemis13EntityManager5cleanEv @25
+    _ZN7artemis13EntityManager7deletedEPNS_6EntityE @26
+    _ZN7artemis13EntityManager7enabledEPNS_6EntityE @27
+    _ZN7artemis13EntityManager8disabledEPNS_6EntityE @28
+    _ZN7artemis13EntityManagerC1Ev @29
+    _ZN7artemis13EntityManagerC2Ev @30
+    _ZN7artemis13EntityManagerD0Ev @31
+    _ZN7artemis13EntityManagerD1Ev @32
+    _ZN7artemis13EntityManagerD2Ev @33
+    _ZN7artemis14EntityObserverD0Ev @34
+    _ZN7artemis14EntityObserverD1Ev @35
+    _ZN7artemis16ComponentManager10initializeEv @36
+    _ZN7artemis16ComponentManager12addComponentEPNS_6EntityEPNS_9ComponentE @37
+    _ZN7artemis16ComponentManager12getComponentEPNS_6EntityEj @38
+    _ZN7artemis16ComponentManager15removeComponentEPNS_6EntityEj @39
+    _ZN7artemis16ComponentManager16getComponentsForEPNS_6EntityEPNS_3BagIPNS_9ComponentEEE @40
+    _ZN7artemis16ComponentManager19getComponentsByTypeEj @41
+    _ZN7artemis16ComponentManager24removeComponentsOfEntityEPNS_6EntityE @42
+    _ZN7artemis16ComponentManager5cleanEv @43
+    _ZN7artemis16ComponentManager7deletedEPNS_6EntityE @44
+    _ZN7artemis16ComponentManagerD0Ev @45
+    _ZN7artemis16ComponentManagerD1Ev @46
+    _ZN7artemis20IntervalEntitySystem15checkProcessingEv @47
+    _ZN7artemis20IntervalEntitySystemD0Ev @48
+    _ZN7artemis20IntervalEntitySystemD1Ev @49
+    _ZN7artemis21ComponentMapperHelper13getComponentsEPNS_5WorldEj @50
+    _ZN7artemis29DelayedEntityProcessingSystem15checkProcessingEv @51
+    _ZN7artemis29DelayedEntityProcessingSystem15processEntitiesEPNS_3BagIPNS_6EntityEEE @52
+    _ZN7artemis29DelayedEntityProcessingSystem8insertedEPNS_6EntityE @53
+    _ZN7artemis29DelayedEntityProcessingSystemD0Ev @54
+    _ZN7artemis29DelayedEntityProcessingSystemD1Ev @55
+    _ZN7artemis5World10initializeEv @56
+    _ZN7artemis5World12createEntityEv @57
+    _ZN7artemis5World12deleteSystemEPNS_12EntitySystemE @58
+    _ZN7artemis5World13deleteManagerEPNS_7ManagerE @59
+    _ZN7artemis5World13notifySystemsEMNS_14EntityObserverEFvPNS_6EntityEES3_ @60
+    _ZN7artemis5World14notifyManagersEMNS_14EntityObserverEFvPNS_6EntityEES3_ @61
+    _ZN7artemis5World5checkEPNS_3BagIPNS_6EntityEEEMNS_14EntityObserverEFvS3_E @62
+    _ZN7artemis5World7processEv @63
+    _ZN7artemis5World9getEntityEi @64
+    _ZN7artemis5WorldC1Ev @65
+    _ZN7artemis5WorldC2Ev @66
+    _ZN7artemis5WorldD1Ev @67
+    _ZN7artemis5WorldD2Ev @68
+    _ZN7artemis6Aspect15getAspectForOneEjz @69
+    _ZN7artemis6Aspect3oneEjz @70
+    _ZN7artemis6Aspect7excludeEjz @71
+    _ZN7artemis6Entity10addToWorldEv @72
+    _ZN7artemis6Entity12addComponentEPNS_9ComponentE @73
+    _ZN7artemis6Entity12getComponentEj @74
+    _ZN7artemis6Entity13getComponentsEPNS_3BagIPNS_9ComponentEEE @75
+    _ZN7artemis6Entity14changedInWorldEv @76
+    _ZN7artemis6Entity15deleteFromWorldEv @77
+    _ZN7artemis6Entity15removeComponentEPNS_9ComponentE @78
+    _ZN7artemis6Entity15removeComponentEj @79
+    _ZN7artemis6Entity6enableEv @80
+    _ZN7artemis6Entity7disableEv @81
+    _ZN7artemis6Entity9isEnabledEv @82
+    _ZN7artemis6EntityC1EPNS_5WorldEi @83
+    _ZN7artemis6EntityC2EPNS_5WorldEi @84
+    _ZN7artemis7Manager5addedEPNS_6EntityE @85
+    _ZN7artemis7Manager7changedEPNS_6EntityE @86
+    _ZN7artemis7Manager7deletedEPNS_6EntityE @87
+    _ZN7artemis7Manager7enabledEPNS_6EntityE @88
+    _ZN7artemis7Manager8disabledEPNS_6EntityE @89
+    _ZN7artemis7ManagerD0Ev @90
+    _ZN7artemis7ManagerD1Ev @91
+    _ZN7artemis7TrigLUT10degToIndexE @92 DATA
+    _ZN7artemis7TrigLUT10radToIndexE @93 DATA
+    _ZN7artemis7TrigLUT3DEGE @94 DATA
+    _ZN7artemis7TrigLUT3RADE @95 DATA
+    _ZN7artemis7TrigLUT4initEv @96
+    _ZN7artemis7TrigLUT4mCosE @97 DATA
+    _ZN7artemis7TrigLUT4mSinE @98 DATA
+    _ZN7artemis7TrigLUT7degFullE @99 DATA
+    _ZN7artemis7TrigLUT7radFullE @100 DATA
+    _ZN7artemis7TrigLUT9mIsInitedE @101 DATA
+    _ZN7artemis8FastMath10SQUARED_PIE @102 DATA
+    _ZN7artemis8FastMath15THREE_PI_HALVESE @103 DATA
+    _ZN7artemis8FastMath2PIE @104 DATA
+    _ZN7artemis8FastMath6TWO_PIE @105 DATA
+    _ZN7artemis8FastMath6_sin_aE @106 DATA
+    _ZN7artemis8FastMath6_sin_bE @107 DATA
+    _ZN7artemis8FastMath6_sin_pE @108 DATA
+    _ZN7artemis8FastMath7HALF_PIE @109 DATA
+    _ZN7artemis8FastMath7_asin_aE @110 DATA
+    _ZN7artemis8FastMath7_asin_bE @111 DATA
+    _ZN7artemis8FastMath7_asin_cE @112 DATA
+    _ZN7artemis8FastMath7_asin_dE @113 DATA
+    _ZN7artemis8FastMath7_atan_aE @114 DATA
+    _ZNK7artemis6Entity8isActiveEv @115
+    _ZNSt6vectorIjSaIjEE19_M_emplace_back_auxIIjEEEvDpOT_ @116
+    _ZTIN7artemis12EntitySystemE @117 DATA
+    _ZTIN7artemis13EntityManagerE @118 DATA
+    _ZTIN7artemis14EntityObserverE @119 DATA
+    _ZTIN7artemis16ComponentManagerE @120 DATA
+    _ZTIN7artemis20IntervalEntitySystemE @121 DATA
+    _ZTIN7artemis29DelayedEntityProcessingSystemE @122 DATA
+    _ZTIN7artemis7ManagerE @123 DATA
+    _ZTSN7artemis12EntitySystemE @124 DATA
+    _ZTSN7artemis13EntityManagerE @125 DATA
+    _ZTSN7artemis14EntityObserverE @126 DATA
+    _ZTSN7artemis16ComponentManagerE @127 DATA
+    _ZTSN7artemis20IntervalEntitySystemE @128 DATA
+    _ZTSN7artemis29DelayedEntityProcessingSystemE @129 DATA
+    _ZTSN7artemis7ManagerE @130 DATA
+    _ZTVN7artemis12EntitySystemE @131 DATA
+    _ZTVN7artemis13EntityManagerE @132 DATA
+    _ZTVN7artemis14EntityObserverE @133 DATA
+    _ZTVN7artemis16ComponentManagerE @134 DATA
+    _ZTVN7artemis20IntervalEntitySystemE @135 DATA
+    _ZTVN7artemis29DelayedEntityProcessingSystemE @136 DATA
+    _ZTVN7artemis7ManagerE @137 DATA

@@ -1,0 +1,7 @@
+C++ port of the entity-component library Artemis.
+
+Credit goes to Arni Arent the original author and Vladimir Ivanov (ArCorvus) the porter.
+
+Found this some time ago and modified it slightly. Storing it for later use.
+
+Codeblocks projects create libraries, and the sample project is a random terminal program that came with the original code.

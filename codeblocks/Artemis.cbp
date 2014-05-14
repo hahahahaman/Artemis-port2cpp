@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Artemis" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/Artemis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../bin/Artemis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../artemis/Aspect.cpp" />
+		<Unit filename="../artemis/Aspect.h" />
+		<Unit filename="../artemis/Component.h" />
+		<Unit filename="../artemis/ComponentManager.cpp" />
+		<Unit filename="../artemis/ComponentManager.h" />
+		<Unit filename="../artemis/ComponentMapper.cpp" />
+		<Unit filename="../artemis/ComponentMapper.h" />
+		<Unit filename="../artemis/ComponentType.h" />
+		<Unit filename="../artemis/Entity.cpp" />
+		<Unit filename="../artemis/Entity.h" />
+		<Unit filename="../artemis/EntityManager.cpp" />
+		<Unit filename="../artemis/EntityManager.h" />
+		<Unit filename="../artemis/EntityObserver.h" />
+		<Unit filename="../artemis/EntitySystem.cpp" />
+		<Unit filename="../artemis/EntitySystem.h" />
+		<Unit filename="../artemis/EntitySystemType.h" />
+		<Unit filename="../artemis/Manager.h" />
+		<Unit filename="../artemis/ManagerType.h" />
+		<Unit filename="../artemis/World.cpp" />
+		<Unit filename="../artemis/World.h" />
+		<Unit filename="../artemis/managers/GroupManager.h" />
+		<Unit filename="../artemis/managers/PlayerManager.h" />
+		<Unit filename="../artemis/managers/TagManager.h" />
+		<Unit filename="../artemis/managers/TeamManager.h" />
+		<Unit filename="../artemis/systems/DelayedEntityProcessingSystem.cpp" />
+		<Unit filename="../artemis/systems/DelayedEntityProcessingSystem.h" />
+		<Unit filename="../artemis/systems/EntityProcessingSystem.h" />
+		<Unit filename="../artemis/systems/IntervalEntityProcessingSystem.h" />
+		<Unit filename="../artemis/systems/IntervalEntitySystem.cpp" />
+		<Unit filename="../artemis/systems/IntervalEntitySystem.h" />
+		<Unit filename="../artemis/systems/VoidEntitySystem.h" />
+		<Unit filename="../artemis/utils/Bag.h" />
+		<Unit filename="../artemis/utils/FastMath.cpp" />
+		<Unit filename="../artemis/utils/FastMath.h" />
+		<Unit filename="../artemis/utils/Timer.h" />
+		<Unit filename="../artemis/utils/TrigLUT.cpp" />
+		<Unit filename="../artemis/utils/TrigLUT.h" />
+		<Unit filename="../artemis/utils/Utils.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
